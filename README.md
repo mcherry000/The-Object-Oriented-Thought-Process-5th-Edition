@@ -16,23 +16,16 @@ Composition
 
 ##### Object Wrappers
 
+```
 Object wrappers are object-oriented code that includes other code inside. For example, you can take structured code (such as loops and conditions) and wrap it inside an object to make it look like an object. You can also use object wrappers to wrap functionality such as security features, nonportable hardware features, and so on.
-
-#### PROCEDURAL VERSUS OO PROGRAMMING
-
-In OO design, the attributes and behaviors are contained within a single object, whereas in procedural, or structured, design the attributes and behaviors are normally separated.
-
-In structured programming the data is often separated from the procedures, and often the data is global, so it is easy to modify data that is outside the scope of your code. This means that access to data is uncontrolled and unpredictable (that is, multiple functions may have access to the global data). Second, because you have no control over who has access to the data, testing and debugging are much more difficult. Objects address these problems by combining data and behavior into a nice, complete package.
-
-##### Data Hiding
-
-In OO terminology, data are referred to as attributes, and behaviors are referred to as methods. Restricting access to certain attributes and/or methods is called data hiding.
-
 ```
-Getters and Setters
 
-The concept of getters and setters supports the concept of data hiding. Because other objects should not directly manipulate data within another object, the getters and setters provide controlled access to an object's data. Getters and setters are sometimes called accessor methods and mutator methods, respectively.
-```
+##### PROCEDURAL VERSUS OO PROGRAMMING
+
+- In structured programming the data is often separated from the procedures,
+  and often the data is global, so it is easy to modify data that is outside the scope of your code. Access to data is uncontrolled and unpredictable.
+- Testing and debugging are much more difficult because you have no control over who has access to the data.
+- In OO design, Objects address these problems by combining data and behavior within a single object.
 
 ##### Procedural Programming
 
@@ -57,7 +50,7 @@ Objects are the building blocks of an OO program. A program that uses OO technol
 - A class is a blueprint for an object. When you instantiate an object, you use a class as the basis for how the object is built.
 - Classes can be thought of as the templates, or cookie cutters, for objects.
 - A class can be thought of as a sort of higher-level data type.
-- Classes are pieces of code. Objects instantiated from classes can be distributed individually or as part of a library.
+- Classes are pieces of code and objects instantiated from classes can be distributed individually or as part of a library.
 
 In short, you must design a class before you can create an object.
 
@@ -68,3 +61,15 @@ One of the primary advantages of using objects is that the object need not revea
 `Data hiding is a major part of encapsulation.`
 
 For data hiding to work properly, all attributes should be declared as private. Thus, attributes are never part of the interface. Only the public methods are part of the class interface. Declaring an attribute as public breaks the concept of data hiding.
+
+##### Data Hiding
+
+In OO terminology, restricting access to certain attributes and/or methods is called data hiding.
+
+```
+Getters and Setters
+
+The concept of getters and setters supports the concept of data hiding. Because other objects should not directly manipulate data within another object, the getters and setters provide controlled access to an object's data. Getters and setters are sometimes called accessor methods and mutator methods, respectively.
+```
+
+---
