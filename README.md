@@ -17,7 +17,10 @@ Composition
 ##### Object Wrappers
 
 ```
-Object wrappers are object-oriented code that includes other code inside. For example, you can take structured code (such as loops and conditions) and wrap it inside an object to make it look like an object. You can also use object wrappers to wrap functionality such as security features, nonportable hardware features, and so on.
+Object wrappers are object-oriented code that includes other code inside.
+For example, you can take structured code (such as loops and conditions) and
+wrap it inside an object to make it look like an object. You can also use object wrappers
+to wrap functionality such as security features, nonportable hardware features, and so on.
 ```
 
 ##### PROCEDURAL VERSUS OO PROGRAMMING
