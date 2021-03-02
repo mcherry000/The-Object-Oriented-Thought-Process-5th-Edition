@@ -18,9 +18,10 @@ Composition
 
 ```
 Object wrappers are object-oriented code that includes other code inside.
-For example, you can take structured code (such as loops and conditions) and
-wrap it inside an object to make it look like an object. You can also use object wrappers
-to wrap functionality such as security features, nonportable hardware features, and so on.
+For example, you can take structured code (such as loops and conditions)
+and wrap it inside an object to make it look like an object. You can also
+use object wrappersto wrap functionality such as security features,
+nonportable hardware features, and so on.
 ```
 
 ##### PROCEDURAL VERSUS OO PROGRAMMING
@@ -72,7 +73,11 @@ In OO terminology, restricting access to certain attributes and/or methods is ca
 ```
 Getters and Setters
 
-The concept of getters and setters supports the concept of data hiding. Because other objects should not directly manipulate data within another object, the getters and setters provide controlled access to an object's data. Getters and setters are sometimes called accessor methods and mutator methods, respectively.
+The concept of getters and setters supports the concept of data hiding.
+Because other objects should not directly manipulate data within another
+object, the getters and setters provide controlled access to an object's
+data. Getters and setters are sometimes called accessor methods and
+mutator methods, respectively.
 ```
 
 ---
